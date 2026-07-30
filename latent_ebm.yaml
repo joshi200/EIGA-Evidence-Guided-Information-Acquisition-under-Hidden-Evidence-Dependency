@@ -1,0 +1,9 @@
+epochs: 30
+batch_size: 128
+learning_rate: 0.0003
+weight_decay: 0.0001
+gradient_clip_norm: 1.0
+patience: 6
+seed: 17
+num_workers: 0
+device: auto
