@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: eiga
+Version: 0.1.0
+Summary: Evidence-Guided Information Acquisition under hidden source dependency
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: torch>=2.1
+Provides-Extra: gym
+Requires-Dist: gymnasium>=0.29; extra == "gym"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
